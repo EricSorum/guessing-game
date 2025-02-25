@@ -23,8 +23,7 @@ fn main() {
         io::stdin()
 
             .read_line(&mut guess)
-            // & means it's a references, which are immutable by default.
-            /*
+           /*
             & means it's a references, which are immutable by default.
             Returns a Result value, i.e. an enumeration/enum.
             An enum can be one of several variants: Ok or Err
